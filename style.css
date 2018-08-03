@@ -1,0 +1,39 @@
+
+body{
+  width:100%;
+  height:100%;
+  background:url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") center center/cover no-repeat fixed;
+}
+.nav-tabs>li>a{
+  background-color:rgba(68, 149, 129,0.9);
+  color:white;
+  font:1.15em 'open sans';
+}
+h1{
+  padding:0.45em;
+  font:7em 'just another hand';
+}
+.row{
+  margin-top:2em;
+}
+.tab-pane{
+  background-color:rgba(255,255,255,0.3);
+  padding:1.5em;
+}
+iframe {
+  max-width:80vw;
+ -moz-transition: height 0.5s ease;
+ -webkit-transition: height 0.5s ease;
+ -o-transition: height 0.5s ease;
+ transition: height,width 0.5s ease;
+}
+
+iframe:hover {
+  position:relative;
+  top:-3.25vh;
+  left:-2.56vw;
+  width:30.746vw;
+  height:240px;
+  display:block;
+  z-index:999;
+}
