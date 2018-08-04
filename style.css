@@ -27,13 +27,25 @@ iframe {
  -o-transition: height 0.5s ease;
  transition: height,width 0.5s ease;
 }
-
+@media (min-width:1200px){
 iframe:hover {
-  position:relative;
-  top:-3.25vh;
-  left:-2.56vw;
-  width:30.746vw;
-  height:240px;
-  display:block;
+  position:relative; 
+  top:-3.2vh; 
+  left:-2.5vw; 
+  width:30.7vw; 
+  height:240px; 
+  display:block; 
   z-index:999;
+  }}  
+@media (min-width: 1550px){
+  iframe:hover{
+width:27vw;
+}}
+ @media (min-width: 1800px) {
+  iframe:hover {
+width:23.2vw;
+}}
+.footer{
+  margin-top:3vh;
+  font:1.6em 'just another hand';
 }
