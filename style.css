@@ -1,5 +1,5 @@
-html {
-  height: 100%;
+ html {
+  height: 100vh;
   width:100%;
 }
 body{
@@ -33,14 +33,14 @@ iframe {
 }
 @media (min-width:1200px){
 iframe:hover {
-  position:relative;
-  top:-3.2vh;
-  left:-2.5vw;
-  width:30.7vw;
-  height:240px;
-  display:block;
+  position:relative; 
+  top:-3.2vh; 
+  left:-2.5vw; 
+  width:30.7vw; 
+  height:240px; 
+  display:block; 
   z-index:999;
-  }}
+  }}  
 @media (min-width: 1550px){
   iframe:hover{
 width:27vw;
@@ -52,6 +52,20 @@ width:23.2vw;
 .footer{
   width:100%;
   position: absolute;
-  bottom: 0;
+  bottom: 0;  
   font-size:0.85em;
+}
+
+.no-js #loader { display: none;
+}
+.js #loader { display: block; position: absolute; left: 100px; top: 0; 
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("https://cdn.dribbble.com/users/537591/screenshots/3432519/loader.gif") center no-repeat #333;
 }
