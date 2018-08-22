@@ -26,18 +26,18 @@ h1{
 }
 iframe {
   max-width:80vw;
- -moz-transition: height 0.5s ease;
- -webkit-transition: height 0.5s ease;
- -o-transition: height 0.5s ease;
- transition: height,width 0.5s ease;
+ -moz-transition: height 0.1s ease;
+ -webkit-transition: height 0.1s ease;
+ -o-transition: height 0.1s ease;
+ transition: height,width 0.1s ease;
 }
 @media (min-width:1200px){
 iframe:hover {
   position:relative; 
-  top:-3.2vh; 
-  left:-2.5vw; 
   width:30.7vw; 
-  height:240px; 
+  height:240px;
+  top:-3.2vh; 
+  left:-2.5vw;  
   display:block; 
   z-index:999;
   }}  
